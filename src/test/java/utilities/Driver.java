@@ -9,24 +9,26 @@ import org.openqa.selenium.safari.SafariDriver;
 public class Driver {
 
     static WebDriver driver;
-    public static WebDriver getDriver(){
 
-        if (driver==null){
+    public static WebDriver getDriver() {
+
+        if (driver == null) {
             String browser = ConfigurationReader.getProperty("browser");
-            switch (browser){
+            switch (browser) {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-                    driver=new ChromeDriver();
+                    driver = new ChromeDriver();
+                    driver.manage().window().maximize();
                     break;
 
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
-                    driver=new FirefoxDriver();
+                    driver = new FirefoxDriver();
                     break;
 
                 case "safari":
                     WebDriverManager.safaridriver().setup();
-                    driver=new SafariDriver();
+                    driver = new SafariDriver();
                     break;
             }
         }
@@ -34,12 +36,12 @@ public class Driver {
         return driver;
 
 
-
     }
-    public static void closeDriver(){
-        if (driver!=null){
+
+    public static void closeDriver() {
+        if (driver != null) {
             driver.quit();
-            driver=null;
+            driver = null;
         }
 
     }
