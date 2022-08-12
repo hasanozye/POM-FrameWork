@@ -38,7 +38,8 @@ public class Driver {
 
     }
 
-    public static void closeDriver() {
+    public static void closeDriver() throws InterruptedException {
+        Thread.sleep(3000);
         if (driver != null) {
             driver.quit();
             driver = null;
