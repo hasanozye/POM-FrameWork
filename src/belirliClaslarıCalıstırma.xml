@@ -3,7 +3,7 @@
     <test name="testnamelol">
         <classes>
             <!-- AmZON ARAMA TESTİ VE c03 e2e TEST" -->
-            <class name="test.otherTests.AmazonAramaTest"></class>
+            <class name="test.day26.AmazonAramaTest"></class>
             <class name="test.day24.C03_E2ETesting"></class>
         </classes>
     </test>

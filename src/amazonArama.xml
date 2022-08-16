@@ -3,7 +3,7 @@
     <test name="justTest">
         <classes>
             <class name="test.day24.C03_E2ETesting"></class>
-            <class name="test.otherTests.AmazonAramaTest"></class>
+            <class name="test.day26.AmazonAramaTest"></class>
         </classes>
     </test>
 </suite>

@@ -1,4 +1,4 @@
-package test.otherTests;
+package test.day26;
 
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -12,7 +12,7 @@ public class AmazonAramaTest {
     AmazonPage amazonPage = new AmazonPage();
 
 
-    @Test
+    @Test (groups = "miniRegression")
     public void aramaTesti() {
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
 

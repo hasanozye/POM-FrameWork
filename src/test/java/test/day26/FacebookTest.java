@@ -1,4 +1,4 @@
-package test.otherTests;
+package test.day26;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.By;
@@ -14,7 +14,7 @@ import utilities.Driver;
 public class FacebookTest {
     FacebookPage facebookPage = new FacebookPage();
 
-    @Test
+    @Test (groups = "miniRegression")
     public void facebookTest() throws InterruptedException {
         Driver.getDriver().get(ConfigurationReader.getProperty("fb"));
 

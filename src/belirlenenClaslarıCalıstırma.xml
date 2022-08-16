@@ -3,8 +3,8 @@
     <test name="classlar">
         <!-- zbam ıvj test edecegiz classları -->
         <classes>
-            <class name="test.otherTests.AmazonAramaTest"></class>
-            <class name="test.otherTests.W3SchoolTest"></class>
+            <class name="test.day26.AmazonAramaTest"></class>
+            <class name="test.day26.W3SchoolTest"></class>
             <class name="test.day24.C03_E2ETesting"></class>
         </classes>
 
