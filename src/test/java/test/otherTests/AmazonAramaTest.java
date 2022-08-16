@@ -18,19 +18,15 @@ public class AmazonAramaTest {
 
         amazonPage.aramaKutusu.sendKeys("ipad", Keys.ENTER);
 
-        for (WebElement titleAll: amazonPage.aramaText){
+        for (WebElement titleAll : amazonPage.aramaText) {
             System.out.println("titleAll.getText() = " + titleAll.getText());
         }
 
         amazonPage.ipadFirstElement.click();
 
-        String  productTile = amazonPage.elementTitle.getText();
+        String productTile = amazonPage.elementTitle.getText();
 
         amazonPage.resim.click();
-
-
-
-
 
 
     }

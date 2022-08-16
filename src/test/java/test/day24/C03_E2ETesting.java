@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import pages.HotelMyCamp;
 import utilities.ConfigurationReader;
 import utilities.Driver;
+import utilities.Reusable_Methods;
 
 import java.util.Properties;
 
@@ -37,8 +38,6 @@ public class C03_E2ETesting {
         hotelMyCamp.userName.sendKeys(ConfigurationReader.getProperty("HMCValidUserName"));
         hotelMyCamp.password.sendKeys(ConfigurationReader.getProperty("HMCValidPassword"));
         hotelMyCamp.btnSubmit.click();
-
-
         hotelMyCamp.hotelManagement.click();
 
         Thread.sleep(4000);
