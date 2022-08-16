@@ -58,7 +58,7 @@ public class C03_E2ETesting {
         select.selectByVisibleText("Hotel Type1");
         hotelMyCamp.lastSubmitButton.click();
 
-        actions.click(hotelMyCamp.alert).perform();
+        //actions.click(hotelMyCamp.alert).perform();
 
 
     }

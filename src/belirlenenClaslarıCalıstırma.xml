@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belli classları calistirmak">
+    <test name="classlar">
+        <!-- zbam ıvj test edecegiz classları -->
+        <classes>
+            <class name="test.otherTests.AmazonAramaTest"></class>
+            <class name="test.otherTests.W3SchoolTest"></class>
+            <class name="test.day24.C03_E2ETesting"></class>
+        </classes>
+
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="balbal">
+    <test name="justTest">
+        <classes>
+            <class name="test.day24.C03_E2ETesting"></class>
+            <class name="test.otherTests.AmazonAramaTest"></class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirlenen package'lari calistirmak">
+    <test name="SMOKE TEST">
+        <packages>
+            <package name="test.smoketest">
+
+            </package>
+        </packages>
+
+    </test>
+</suite>
