@@ -9,7 +9,8 @@ import org.testng.annotations.Test;
 import pages.HotelMyCamp;
 import utilities.ConfigurationReader;
 import utilities.Driver;
-import utilities.Reusable_Methods;
+import utilities.ReusableMethods;
+
 
 import java.util.Properties;
 
