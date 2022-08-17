@@ -13,7 +13,7 @@ public class FacebookPage {
 
     }
 
-    @FindBy (xpath = "//a[text()=\"Yeni Hesap Oluştur\"]")
+    @FindBy (xpath = "//*[@data-testid=\"open-registration-form-button\"]")
     public WebElement signUp;
 
     @FindBy (xpath = "(//input[@type=\"text\"])[2]")
